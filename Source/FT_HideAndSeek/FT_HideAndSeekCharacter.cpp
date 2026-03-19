@@ -62,5 +62,6 @@ void AFT_HideAndSeekCharacter::BeginPlay()
 	else
 	{
 		UE_LOG(LogTemp, Warning, TEXT("Skynet Deployed, kill John Conner"));
+		GetCharacterMovement()->MaxWalkSpeed = 50.f;
 	}
 }

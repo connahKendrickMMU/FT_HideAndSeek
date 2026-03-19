@@ -13,5 +13,8 @@ UCLASS()
 class FT_HIDEANDSEEK_API AStalkerAIController : public AAIController
 {
 	GENERATED_BODY()
-	
+public:
+	virtual void Tick(float DeltaTime) override;
+	virtual void BeginPlay() override;
+
 };
